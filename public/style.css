@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+}
+
+.navbar{
+    background : rgba(0,0,0,0.3);
+}
+
+.navbar img{
+    width: 40px;
+}
+
+.carousel-caption{
+    margin-bottom: 320px;
+    /* font-size: 30px; */
+}
+
+.btn:hover{
+    width: 130px;
+    height: 40px;
+}
+
+.aboutUs{
+    padding-top: 70px;
+    margin-left: 500px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+/* .aboutUs h1{
+    text-align: center;
+} */
+
+.whyMustJoin{
+    margin-top: 70px;
+    margin-right: 500px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+.content1{
+    background-image: url('./assets/MTYxNTc0ODk0M18xMzEzLmpwZw==.jpg');
+    color: white;
+}
+
+.content1 hr{
+    height: 10px;
+}
+.content2{
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.content2 h1{
+    margin-block: 50px;
+}
+.timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: black;
+  }
+   
+  .timeline ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: inherit;
+  }
+
+  .timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background: #F45B69;
+  }
+   
+  .timeline ul li div::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+
+  .timeline ul li:nth-child(odd) div {
+    left: 45px;
+  }
+   
+  .timeline ul li:nth-child(odd) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+
+  .timeline ul li:nth-child(even) div {
+    left: -439px;
+  }
+   
+  .timeline ul li:nth-child(even) div::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #F45B69;
+  }
+
+  .proTips{
+      padding-block: 70px;
+      padding-inline: 300px;
+      text-align: center;
+      background-image: url('./assets/d3395ed9226a8a74c22891f4b2fe688f.png');
+      
+  }
+  .proTips h1{
+      color: white;
+  }
+
+  .proTips .card{
+      margin-inline: 20px;
+      
+  }
+
+  .cardGroup{
+      display: flex;
+
+  }
+
+  .footer{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+  }
+
+  .footer img{
+      width: 50px;
+  }
+
+  .footer a{
+    text-decoration: none;
+  }
+
+  .footerTop{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .SocialMedia{
+      display: flex;
+      flex-direction: column;
+  }
+
+
+form h1{
+    text-align: center;
+}
